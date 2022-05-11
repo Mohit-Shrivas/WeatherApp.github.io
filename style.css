@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=DM+Sans&family=Hubballi&family=Inconsolata:wght@600&family=Lobster&family=Montserrat:ital,wght@0,200;1,100&family=My+Soul&family=Open+Sans&family=Oxygen&family=Oxygen+Mono&family=Quintessential&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@1,100;1,200&family=Roboto:ital@1&family=Shizuru&family=Short+Stack&family=Space+Mono:ital,wght@0,700;1,400&family=Ubuntu+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courgette", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #e6fff5;
+  filter: blur(0.4 px);
+}
+.main {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: column; */
+  gap: 7rem;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    /* gap: 7rem; */
+  }
+}
+.dark {
+  margin: 8px;
+}
+h1 {
+  display: flex;
+  justify-content: baseline;
+  color: #333;
+
+  text-align: justify;
+  justify-content: baseline;
+  margin-left: 5px;
+}
+h1 p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.first {
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  /* box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.4); */
+}
+
+.inputs {
+  background-color: #fff;
+  outline: none;
+  margin: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  height: 36px;
+  width: 260px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.sub {
+  height: 2.2rem;
+  width: 110px;
+  background: #0a67ca;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.sub:hover {
+  background-color: rgb(180, 255, 105);
+  color: #333;
+  transition: 0.5s;
+}
+
+.diplay {
+  background-color: #fff;
+  height: 460px;
+  width: auto;
+  min-width: 600px;
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.showdiv {
+  height: 460px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-self: center; */
+}
+.showdiv h3 {
+  color: black;
+  font-size: x-large;
+  font-weight: 200;
+}
+@media only screen and (max-width: 450px) {
+  .showdiv h3 {
+    color: black;
+    font-size: 10px;
+    font-weight: 200;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .diplay {
+    background-color: #fff;
+    height: auto;
+    width: 250px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  .showdiv {
+    height: auto;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+  }
+  .imgdisplay img {
+    height: 70px;
+    width: 100px;
+    text-align: center;
+  }
+}
+.front {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2 {
+  /* text-align: center; */
+  padding: 0.6rem;
+  margin: 5px;
+  font-size: 2rem;
+  color: green;
+}
+h3 {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+  color: rgb(60, 9, 243);
+}
+.imgdisplay {
+  text-align: center;
+  padding: 10px;
+}
+.imgdisplay img {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+}
+.imgdisplay p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.other {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+p {
+  font-size: large;
+}
+.pall {
+  color: purple;
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+  .pall {
+    color: purple;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 15px;
+  }
+  .part1 p {
+    font-size: 15px;
+  }
+  .part2 p {
+    font-size: 15px;
+  }
+  .other {
+    padding: 10px;
+  }
+}
+.pall img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.temp {
+  color: purple;
+  font-weight: 900;
+}
